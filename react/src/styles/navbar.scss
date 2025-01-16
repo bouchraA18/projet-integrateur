@@ -1,0 +1,74 @@
+/* src/styles/navbar.scss */
+
+.navbar {
+    background-color: #1a1f36; // Dark navy-blue
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  
+    &__toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    &__logo {
+      cursor: pointer;
+      h1 {
+        margin: 0;
+        font-size: 1.5rem;
+        color: #fff;
+      }
+    }
+  
+    &__search {
+      position: relative;
+      background-color: rgba(255, 255, 255, 0.15);
+      border-radius: 4px;
+      padding: 2px 8px;
+      display: flex;
+      align-items: center;
+  
+      &:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+    }
+  
+    &__searchIcon {
+      color: #fff;
+    }
+  
+    &__searchInput {
+      color: #fff;
+      margin-left: 8px;
+      width: 200px;
+    }
+  
+    &__links {
+      margin-left: 20px;
+      
+      a {
+        margin: 0 8px;
+        font-weight: 500;
+        color: #fff;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  
+    &__notificationsMenu {
+      .MuiPaper-root {
+        background-color: #fff;
+        color: #333;
+      }
+    }
+  
+    &__notificationsSearch {
+      display: flex;
+      align-items: center;
+      padding: 6px 8px;
+      svg {
+        margin-right: 6px;
+      }
+    }
+  }
+  

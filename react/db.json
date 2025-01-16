@@ -1,0 +1,192 @@
+{
+    "students": [
+      {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john@example.com"
+      },
+      {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane@example.com"
+      },
+      {
+        "id": 3,
+        "name": "Alice Johnson",
+        "email": "alice@example.com"
+      },
+      {
+        "id": 4,
+        "name": "Bob Brown",
+        "email": "bob@example.com"
+      }
+    ],
+    "courses": [
+      {
+        "id": 101,
+        "name": "Introduction to React",
+        "description": "Basics of React, JSX, and component-based architecture",
+        "instructor": "Professor Green"
+      },
+      {
+        "id": 102,
+        "name": "Data Structures",
+        "description": "Learn about arrays, linked lists, stacks, queues, and more",
+        "instructor": "Dr. Nguyen"
+      },
+      {
+        "id": 103,
+        "name": "Linear Algebra",
+        "description": "Matrix operations, vector spaces, and linear transformations",
+        "instructor": "Dr. Watkins"
+      },
+      {
+        "id": 104,
+        "name": "Web Development",
+        "description": "HTML, CSS, JavaScript, and modern web frameworks",
+        "instructor": "Prof. Chang"
+      },
+      {
+        "id": 105,
+        "name": "Database Systems",
+        "description": "Relational databases, SQL, and schema design",
+        "instructor": "Dr. Patel"
+      },
+      {
+        "id": 106,
+        "name": "Computer Networks",
+        "description": "Networking protocols, TCP/IP stack, and network security",
+        "instructor": "Prof. Carter"
+      }
+    ],
+    "enrollments": [
+      {
+        "id": 1,
+        "studentId": 1,
+        "courseId": 101
+      },
+      {
+        "id": 2,
+        "studentId": 1,
+        "courseId": 102
+      },
+      {
+        "id": 3,
+        "studentId": 2,
+        "courseId": 101
+      },
+      {
+        "id": 4,
+        "studentId": 2,
+        "courseId": 103
+      },
+      {
+        "id": 5,
+        "studentId": 3,
+        "courseId": 104
+      },
+      {
+        "id": 6,
+        "studentId": 4,
+        "courseId": 105
+      }
+    ],
+    "grades": [
+      {
+        "id": 1,
+        "studentId": 1,
+        "courseId": 101,
+        "grade": "A"
+      },
+      {
+        "id": 2,
+        "studentId": 1,
+        "courseId": 102,
+        "grade": "B+"
+      },
+      {
+        "id": 3,
+        "studentId": 2,
+        "courseId": 101,
+        "grade": "A-"
+      },
+      {
+        "id": 4,
+        "studentId": 2,
+        "courseId": 103,
+        "grade": "B"
+      },
+      {
+        "id": 5,
+        "studentId": 3,
+        "courseId": 104,
+        "grade": "A"
+      },
+      {
+        "id": 6,
+        "studentId": 4,
+        "courseId": 105,
+        "grade": "C+"
+      }
+    ],
+    "notifications": [
+      {
+        "id": 1,
+        "studentId": 1,
+        "message": "Assignment 1 due tomorrow for Introduction to React"
+      },
+      {
+        "id": 2,
+        "studentId": 2,
+        "message": "Midterm exam next week for Linear Algebra"
+      },
+      {
+        "id": 3,
+        "studentId": 1,
+        "message": "New discussion post in Data Structures"
+      },
+      {
+        "id": 4,
+        "studentId": 3,
+        "message": "Project proposal deadline extended for Web Development"
+      }
+    ],
+    "assignments": [
+      {
+        "id": 1,
+        "courseId": 101,
+        "title": "React Basic Concepts",
+        "description": "Build a small React app using JSX and components",
+        "dueDate": "2025-03-15"
+      },
+      {
+        "id": 2,
+        "courseId": 102,
+        "title": "Array and Linked List Implementation",
+        "description": "Implement a basic list data structure in any language",
+        "dueDate": "2025-03-20"
+      },
+      {
+        "id": 3,
+        "courseId": 103,
+        "title": "Matrix Operations",
+        "description": "Solve a set of linear equations using matrix methods",
+        "dueDate": "2025-03-25"
+      },
+      {
+        "id": 4,
+        "courseId": 104,
+        "title": "Personal Portfolio Website",
+        "description": "Create a responsive personal site using HTML, CSS, JS",
+        "dueDate": "2025-04-01"
+      },
+      {
+        "id": 5,
+        "courseId": 105,
+        "title": "SQL Queries",
+        "description": "Write queries to manage a sample 'Students' database",
+        "dueDate": "2025-04-05"
+      }
+    ]
+  }
+  

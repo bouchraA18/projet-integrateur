@@ -1,0 +1,85 @@
+/* src/styles/global.scss */
+
+/*--------------------------*/
+/*       Variables          */
+/*--------------------------*/
+
+$primary-color: #0d2538;    // Dark teal/navy for navbar and headers
+$secondary-color: #00a8e8;  // Accent blue for buttons & highlights
+$accent-color: #f6f6f6;     // Off-white background for content areas
+$text-color: #333;         // Dark text for content
+$font-family-base: 'Roboto', sans-serif;
+$navbar-height: 80px;
+
+/*--------------------------*/
+/*       Mixins             */
+/*--------------------------*/
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*--------------------------*/
+/*       Base Styles        */
+/*--------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font-family-base;
+  background-color: $accent-color;
+  color: $text-color;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: $secondary-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Utility Classes */
+.mt-20 { margin-top: 20px; }
+.mb-20 { margin-bottom: 20px; }
+.p-20 { padding: 20px; }
+
+/*--------------------------*/
+/*       Global Components  */
+/*--------------------------*/
+
+/* Example of a professional card style */
+.custom-card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+/* Global Button Override */
+.MuiButton-root {
+  text-transform: none;
+  font-weight: 500;
+}
+
+/* Global Typography Override */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+/* Responsive Media Queries (example) */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+}
